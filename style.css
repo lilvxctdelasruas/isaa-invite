@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', sans-serif;
+}
+
+body {
+    background-color: #E6E8E6;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 0;
+}
+
+.containerHeader {
+    max-width: 450px;
+    width: 100%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.containerHeader h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #191919;
+}
+
+.containerHeader span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #191919;
+    margin-bottom: .5rem;
+}
+
+.content {
+    max-width: 450px;
+    width: 100%;
+    margin-top: 1.5rem;
+
+    padding: 0 1rem;
+}
+
+.content h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #191919;
+    margin-bottom: .5rem;
+}
+
+
+.content > .inviteText p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #191919;
+    margin-bottom: .5rem;
+
+}
+
+.images {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+    margin-top: 2rem;
+}
+
+.images img {
+    max-width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    transform: rotate(5deg);
+}
+
+.images span {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.footerButton {
+    width: 100%;
+    height: 10rem;
+    max-width: 450px;
+    margin-top: 3rem;
+
+    padding: 0 1rem;
+
+
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.footerButton button {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    background-color: #9DD1F1;
+
+    font-size: 1rem;
+}
